@@ -1,0 +1,38 @@
+<?php
+
+namespace App\Controllers;
+helper('html');
+
+class Home extends BaseController
+{
+    public function index()
+    {
+        $data=[
+            'titre'=>'Sama Tontine::Acceuil',
+            'menuActif'=> 'acceuil',
+        ];
+    
+        echo view('layout/entete',$data);
+        echo view('welcome_message');
+        echo view('layout/pied');
+    }
+    public function contact()
+    {
+        // echo view('layout/entete');
+        // echo view('contact');
+        // echo view('layout/pied');
+        return view('contact');
+
+    }
+    public function presentation()
+    {
+        $data=[
+            'titre'=>'Sama Tontine::Presentation',
+            'menuActif'=> 'presentation',
+        ];
+        echo view('layout/entete',$data);
+        echo view('presentation');
+        echo view('layout/pied');
+
+    }
+}

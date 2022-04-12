@@ -1,0 +1,618 @@
+CRITICAL - 2022-04-10 05:17:26 --> Undefined variable: totalTime
+#0 C:\xampp\htdocs\tontine\tontine\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\Debug\Toolbar.php(501): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tontine\tontine\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\tontine\tontine\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\xampp\htdocs\tontine\tontine\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-10 05:21:14 --> matches  is not a valid rule.
+#0 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('matches ')
+#1 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('motPasseConf', 'motPasseConf', NULL, Array, Array)
+#2 C:\xampp\htdocs\tontine\tontine\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\tontine\tontine\app\Controllers\Utilisateur.php(40): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Utilisateur->inscription()
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utilisateur))
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 05:21:45 --> matches  is not a valid rule.
+#0 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('matches ')
+#1 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('motPasseConf', 'motPasseConf', NULL, Array, Array)
+#2 C:\xampp\htdocs\tontine\tontine\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\tontine\tontine\app\Controllers\Utilisateur.php(41): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Utilisateur->inscription()
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utilisateur))
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 06:19:13 --> Class 'App\Validation\UtilisateurRules' not found
+#0 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(115): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 C:\xampp\htdocs\tontine\tontine\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#2 C:\xampp\htdocs\tontine\tontine\app\Controllers\Utilisateur.php(26): CodeIgniter\Controller->validate(Array)
+#3 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Utilisateur->index()
+#4 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utilisateur))
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-10 06:19:33 --> Class 'App\Validation\UtilisateurRules' not found
+#0 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(115): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 C:\xampp\htdocs\tontine\tontine\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#2 C:\xampp\htdocs\tontine\tontine\app\Controllers\Utilisateur.php(26): CodeIgniter\Controller->validate(Array)
+#3 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Utilisateur->index()
+#4 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utilisateur))
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-10 06:19:59 --> Class 'App\Validation\UtilisateurRules' not found
+#0 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(115): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 C:\xampp\htdocs\tontine\tontine\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#2 C:\xampp\htdocs\tontine\tontine\app\Controllers\Utilisateur.php(26): CodeIgniter\Controller->validate(Array)
+#3 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Utilisateur->index()
+#4 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utilisateur))
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-10 06:20:28 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('motPasse', 'motPasse', 'h', Array, Array)
+#2 C:\xampp\htdocs\tontine\tontine\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\tontine\tontine\app\Controllers\Utilisateur.php(26): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Utilisateur->index()
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utilisateur))
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 06:21:44 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('motPasse', 'motPasse', 'h', Array, Array)
+#2 C:\xampp\htdocs\tontine\tontine\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\tontine\tontine\app\Controllers\Utilisateur.php(26): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Utilisateur->index()
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utilisateur))
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 06:23:21 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('motPasse', 'motPasse', 'h', Array, Array)
+#2 C:\xampp\htdocs\tontine\tontine\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\tontine\tontine\app\Controllers\Utilisateur.php(26): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Utilisateur->index()
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utilisateur))
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 06:23:37 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('motPasse', 'motPasse', '1', Array, Array)
+#2 C:\xampp\htdocs\tontine\tontine\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\tontine\tontine\app\Controllers\Utilisateur.php(26): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Utilisateur->index()
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utilisateur))
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 06:28:26 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('motPasse', 'motPasse', '123456', Array, Array)
+#2 C:\xampp\htdocs\tontine\tontine\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\tontine\tontine\app\Controllers\Utilisateur.php(26): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Utilisateur->index()
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utilisateur))
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 06:49:58 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('motPasse', 'motPasse', '123456', Array, Array)
+#2 C:\xampp\htdocs\tontine\tontine\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\tontine\tontine\app\Controllers\Utilisateur.php(26): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Utilisateur->index()
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utilisateur))
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 06:50:08 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('motPasse', 'motPasse', '123456', Array, Array)
+#2 C:\xampp\htdocs\tontine\tontine\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\tontine\tontine\app\Controllers\Utilisateur.php(26): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Utilisateur->index()
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utilisateur))
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 06:51:41 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('motPasse', 'motPasse', '123456', Array, Array)
+#2 C:\xampp\htdocs\tontine\tontine\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\tontine\tontine\app\Controllers\Utilisateur.php(25): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Utilisateur->index()
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utilisateur))
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 06:52:01 --> Use of undefined constant Bonjour - assumed 'Bonjour' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\tontine\tontine\app\Controllers\Utilisateur.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Utilisateur->index()
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utilisateur))
+#3 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-10 06:52:52 -->  validateUser is not a valid rule.
+#0 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound(' validateUser')
+#1 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('motPasse', 'motPasse', '111', Array, Array)
+#2 C:\xampp\htdocs\tontine\tontine\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\tontine\tontine\app\Controllers\Utilisateur.php(26): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Utilisateur->index()
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utilisateur))
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 06:54:49 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('motPasse', 'motPasse', '111', Array, Array)
+#2 C:\xampp\htdocs\tontine\tontine\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\tontine\tontine\app\Controllers\Utilisateur.php(27): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Utilisateur->index()
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utilisateur))
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 06:54:53 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('motPasse', 'motPasse', '111', Array, Array)
+#2 C:\xampp\htdocs\tontine\tontine\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\tontine\tontine\app\Controllers\Utilisateur.php(27): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Utilisateur->index()
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utilisateur))
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 06:55:38 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('motPasse', 'motPasse', '111', Array, Array)
+#2 C:\xampp\htdocs\tontine\tontine\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\tontine\tontine\app\Controllers\Utilisateur.php(28): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Utilisateur->index()
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utilisateur))
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 06:56:05 -->  validateUser is not a valid rule.
+#0 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound(' validateUser')
+#1 C:\xampp\htdocs\tontine\tontine\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('motPasse', 'motPasse', '111', Array, Array)
+#2 C:\xampp\htdocs\tontine\tontine\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\tontine\tontine\app\Controllers\Utilisateur.php(27): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Utilisateur->index()
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utilisateur))
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 07:36:36 --> Undefined index: id
+#0 C:\xampp\htdocs\tontine\tontine\app\Controllers\Utilisateur.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Utilisateur->index()
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utilisateur))
+#3 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-10 08:16:02 --> Class 'App\Controllers\Tontine' not found
+#0 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->index()
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-10 08:17:38 --> Class 'App\Controllers\Tontine' not found
+#0 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->index()
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-10 08:18:17 --> Call to undefined method App\Models\TontineModel::ListeTontinerest
+#0 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(18): CodeIgniter\Model->__call('ListeTontineres...', Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->index()
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#3 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-10 10:20:55 --> Class 'App\Controllers\Time' not found
+#0 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->ajoutTontine()
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-10 10:21:45 --> Class 'App\Controllers\Time' not found
+#0 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->ajoutTontine()
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-10 10:26:33 --> "d/m/Y" is not a valid datetime format
+#0 C:\xampp\htdocs\tontine\tontine\system\I18n\Time.php(242): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('d/m/Y')
+#1 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(59): CodeIgniter\I18n\Time::createFromFormat('d/m/Y', '')
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->ajoutTontine()
+#3 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#4 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-10 10:29:01 --> "d-m-Y" is not a valid datetime format
+#0 C:\xampp\htdocs\tontine\tontine\system\I18n\Time.php(242): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('d-m-Y')
+#1 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(59): CodeIgniter\I18n\Time::createFromFormat('d-m-Y', '')
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->ajoutTontine()
+#3 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#4 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-10 10:30:11 --> "j-M-Y" is not a valid datetime format
+#0 C:\xampp\htdocs\tontine\tontine\system\I18n\Time.php(242): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('j-M-Y')
+#1 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(59): CodeIgniter\I18n\Time::createFromFormat('j-M-Y', '')
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->ajoutTontine()
+#3 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#4 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-10 10:32:48 --> "j-M-Y" is not a valid datetime format
+#0 C:\xampp\htdocs\tontine\tontine\system\I18n\Time.php(242): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('j-M-Y')
+#1 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(59): CodeIgniter\I18n\Time::createFromFormat('j-M-Y', '')
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->ajoutTontine()
+#3 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#4 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-10 10:34:37 --> "j-M-Y" is not a valid datetime format
+#0 C:\xampp\htdocs\tontine\tontine\system\I18n\Time.php(242): CodeIgniter\I18n\Exceptions\I18nException::forInvalidFormat('j-M-Y')
+#1 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(59): CodeIgniter\I18n\Time::createFromFormat('j-M-Y', '2022-04-08')
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->ajoutTontine()
+#3 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#4 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-10 10:35:33 --> Call to undefined method App\Controllers\Adherent::request()
+#0 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->ajoutTontine()
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-10 10:37:52 --> Call to a member function date_format() on string
+#0 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->ajoutTontine()
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-10 10:38:44 --> Call to undefined method App\Controllers\Adherent::request()
+#0 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->ajoutTontine()
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-10 10:39:04 --> Operand should contain 1 column(s)
+CRITICAL - 2022-04-10 10:39:04 --> Operand should contain 1 column(s)
+#0 C:\xampp\htdocs\tontine\tontine\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `to...', 0)
+#1 C:\xampp\htdocs\tontine\tontine\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 C:\xampp\htdocs\tontine\tontine\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 C:\xampp\htdocs\tontine\tontine\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 C:\xampp\htdocs\tontine\tontine\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\tontine\tontine\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\tontine\tontine\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(70): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->ajoutTontine()
+#9 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#10 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-04-10 10:40:50 --> Unknown column 'nbEcheance' in 'field list'
+CRITICAL - 2022-04-10 10:40:50 --> Unknown column 'nbEcheance' in 'field list'
+#0 C:\xampp\htdocs\tontine\tontine\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `to...', 0)
+#1 C:\xampp\htdocs\tontine\tontine\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 C:\xampp\htdocs\tontine\tontine\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 C:\xampp\htdocs\tontine\tontine\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 C:\xampp\htdocs\tontine\tontine\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\tontine\tontine\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\tontine\tontine\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(70): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->ajoutTontine()
+#9 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#10 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-04-10 10:50:07 --> Unknown column 'nbEcheance' in 'field list'
+CRITICAL - 2022-04-10 10:50:07 --> Unknown column 'nbEcheance' in 'field list'
+#0 C:\xampp\htdocs\tontine\tontine\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `to...', 0)
+#1 C:\xampp\htdocs\tontine\tontine\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 C:\xampp\htdocs\tontine\tontine\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 C:\xampp\htdocs\tontine\tontine\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 C:\xampp\htdocs\tontine\tontine\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\tontine\tontine\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\tontine\tontine\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(70): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->ajoutTontine()
+#9 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#10 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-10 11:05:26 --> Undefined index: dateDeb
+#0 C:\xampp\htdocs\tontine\tontine\app\Views\adherent\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tontine\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tontine\tontine\system\Common.php(1089): CodeIgniter\View\View->render('adherent/index', Array, true)
+#4 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(25): view('adherent/index')
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->index()
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#7 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-10 11:05:49 --> Undefined index: dateDebut
+#0 C:\xampp\htdocs\tontine\tontine\app\Views\adherent\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tontine\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tontine\tontine\system\Common.php(1089): CodeIgniter\View\View->render('adherent/index', Array, true)
+#4 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(25): view('adherent/index')
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->index()
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#7 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-10 11:09:03 --> Undefined index: dateDebut
+#0 C:\xampp\htdocs\tontine\tontine\app\Views\adherent\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tontine\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tontine\tontine\system\Common.php(1089): CodeIgniter\View\View->render('adherent/index', Array, true)
+#4 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(25): view('adherent/index')
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->index()
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#7 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-10 11:09:18 --> Undefined index: dateDebut
+#0 C:\xampp\htdocs\tontine\tontine\app\Views\adherent\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tontine\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tontine\tontine\system\Common.php(1089): CodeIgniter\View\View->render('adherent/index', Array, true)
+#4 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(25): view('adherent/index')
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->index()
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#7 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-10 11:10:01 --> Undefined index: dateDebut
+#0 C:\xampp\htdocs\tontine\tontine\app\Views\adherent\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tontine\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tontine\tontine\system\Common.php(1089): CodeIgniter\View\View->render('adherent/index', Array, true)
+#4 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(25): view('adherent/index')
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->index()
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#7 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-10 11:20:51 --> Undefined index: id
+#0 C:\xampp\htdocs\tontine\tontine\app\Views\adherent\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tontine\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tontine\tontine\system\Common.php(1089): CodeIgniter\View\View->render('adherent/index', Array, true)
+#4 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(25): view('adherent/index')
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->index()
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#7 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-10 17:10:29 --> Unknown column 'tontine.id' in 'where clause'
+CRITICAL - 2022-04-10 17:10:29 --> Unknown column 'tontine.id' in 'where clause'
+#0 C:\xampp\htdocs\tontine\tontine\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tontine\tontine\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tontine\tontine\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tontine\tontine\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tontine\tontine\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tontine\tontine\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\tontine\tontine\app\Models\TontineModel.php(14): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(127): App\Models\TontineModel->tontine('1')
+#8 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->modifTontine('1')
+#9 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#10 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-04-10 17:11:19 --> Unknown column 'tontine.id' in 'where clause'
+CRITICAL - 2022-04-10 17:11:19 --> Unknown column 'tontine.id' in 'where clause'
+#0 C:\xampp\htdocs\tontine\tontine\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tontine\tontine\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tontine\tontine\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tontine\tontine\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tontine\tontine\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tontine\tontine\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\tontine\tontine\app\Models\TontineModel.php(14): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(127): App\Models\TontineModel->tontine('1')
+#8 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->modifTontine('1')
+#9 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#10 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-04-10 17:15:28 --> Unknown column 'tontine.id' in 'where clause'
+CRITICAL - 2022-04-10 17:15:28 --> Unknown column 'tontine.id' in 'where clause'
+#0 C:\xampp\htdocs\tontine\tontine\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tontine\tontine\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tontine\tontine\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tontine\tontine\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tontine\tontine\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tontine\tontine\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#6 C:\xampp\htdocs\tontine\tontine\app\Models\TontineModel.php(14): CodeIgniter\BaseModel->find('1')
+#7 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(127): App\Models\TontineModel->tontine('1')
+#8 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->modifTontine('1')
+#9 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#10 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-10 17:18:32 --> Undefined variable: periodicite
+#0 C:\xampp\htdocs\tontine\tontine\app\Views\adherent\modificationTontine.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tontine\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tontine\tontine\system\Common.php(1089): CodeIgniter\View\View->render('adherent/modifi...', Array, true)
+#4 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(135): view('adherent/modifi...')
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->modifTontine('1')
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#7 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-10 17:37:59 --> Undefined variable: periodicite
+#0 C:\xampp\htdocs\tontine\tontine\app\Views\adherent\modificationTontine.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tontine\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tontine\tontine\system\Common.php(1089): CodeIgniter\View\View->render('adherent/modifi...', Array, true)
+#4 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(135): view('adherent/modifi...')
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->modifTontine('1')
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#7 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-10 17:39:16 --> Undefined variable: periodicite
+#0 C:\xampp\htdocs\tontine\tontine\app\Views\adherent\modificationTontine.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tontine\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tontine\tontine\system\Common.php(1089): CodeIgniter\View\View->render('adherent/modifi...', Array, true)
+#4 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(135): view('adherent/modifi...')
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->modifTontine('1')
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#7 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-10 17:44:37 --> Undefined variable: periodicite
+#0 C:\xampp\htdocs\tontine\tontine\app\Views\adherent\modificationTontine.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tontine\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tontine\tontine\system\Common.php(1089): CodeIgniter\View\View->render('adherent/modifi...', Array, true)
+#4 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(135): view('adherent/modifi...')
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->modifTontine('1')
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#7 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-10 17:45:09 --> Undefined variable: periodicite
+#0 C:\xampp\htdocs\tontine\tontine\app\Views\adherent\modificationTontine.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tontine\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tontine\tontine\system\Common.php(1089): CodeIgniter\View\View->render('adherent/modifi...', Array, true)
+#4 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(135): view('adherent/modifi...')
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->modifTontine('1')
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#7 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-10 17:56:54 --> Undefined variable: periodicite
+#0 C:\xampp\htdocs\tontine\tontine\app\Views\adherent\modificationTontine.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tontine\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tontine\tontine\system\Common.php(1089): CodeIgniter\View\View->render('adherent/modifi...', Array, true)
+#4 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(135): view('adherent/modifi...')
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->modifTontine('1')
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#7 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-10 17:58:27 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-04-10 17:58:27 --> Unknown column 'id' in 'where clause'
+#0 C:\xampp\htdocs\tontine\tontine\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `to...', 0)
+#1 C:\xampp\htdocs\tontine\tontine\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `to...')
+#2 C:\xampp\htdocs\tontine\tontine\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `to...')
+#3 C:\xampp\htdocs\tontine\tontine\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `to...', Array, false)
+#4 C:\xampp\htdocs\tontine\tontine\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\tontine\tontine\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(141): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->suppTontine('2')
+#8 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#9 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-10 19:36:30 --> Undefined variable: model
+#0 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->tontine('3')
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#3 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-10 19:36:36 --> Undefined variable: model
+#0 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->tontine('3')
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#3 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-10 19:37:07 --> Undefined variable: model
+#0 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->tontine('3')
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#3 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-10 19:37:22 --> Undefined variable: model
+#0 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->tontine('3')
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#3 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-10 19:37:44 --> Method name must be a string
+#0 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->tontine('3')
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-10 19:38:16 --> Undefined index: label
+#0 C:\xampp\htdocs\tontine\tontine\app\Views\adherent\tontine.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tontine\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tontine\tontine\system\Common.php(1089): CodeIgniter\View\View->render('adherent/tontin...', Array, true)
+#4 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(39): view('adherent/tontin...')
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->tontine('3')
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#7 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-10 20:10:26 --> Class 'App\Controllers\AdherentModel' not found
+#0 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->tontine('3')
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-10 20:18:17 --> Class 'App\Controllers\AdherentModel' not found
+#0 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->tontine('3')
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-10 20:19:31 --> Class 'App\Controllers\AdherentModel' not found
+#0 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->tontine('3')
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-10 20:19:34 --> Class 'App\Controllers\AdherentModel' not found
+#0 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->tontine('3')
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-10 20:39:34 --> Unknown column 'idTontines' in 'field list'
+CRITICAL - 2022-04-10 20:39:34 --> Unknown column 'idTontines' in 'field list'
+#0 C:\xampp\htdocs\tontine\tontine\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT DISTINCT...', 0)
+#1 C:\xampp\htdocs\tontine\tontine\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\tontine\tontine\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT...')
+#3 C:\xampp\htdocs\tontine\tontine\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT...', Array, false)
+#4 C:\xampp\htdocs\tontine\tontine\app\Models\TontineModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(39): App\Models\TontineModel->listeTontines('2')
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->adhesion()
+#7 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#8 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-10 20:40:29 --> Undefined variable: listeTontines
+#0 C:\xampp\htdocs\tontine\tontine\app\Views\adherent\adhesion.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tontine\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tontine\tontine\system\Common.php(1089): CodeIgniter\View\View->render('adherent/adhesi...', Array, true)
+#4 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(44): view('adherent/adhesi...')
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->adhesion()
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#7 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

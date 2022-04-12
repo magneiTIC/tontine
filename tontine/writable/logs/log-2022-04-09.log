@@ -1,0 +1,83 @@
+CRITICAL - 2022-04-09 00:59:11 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\tontine\tontine\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\tontine\tontine\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-09 01:00:23 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\tontine\tontine\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\tontine\tontine\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-09 01:05:58 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\tontine\tontine\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\tontine\tontine\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-09 01:06:00 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\tontine\tontine\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\tontine\tontine\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-09 01:07:35 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\tontine\tontine\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\tontine\tontine\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-09 01:11:05 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\tontine\tontine\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\tontine\tontine\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-09 07:51:33 --> Undefined variable: data
+#0 C:\xampp\htdocs\tontine\tontine\app\Controllers\Home.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-09 07:52:02 --> Undefined variable: titre
+#0 C:\xampp\htdocs\tontine\tontine\app\Views\layout\entete.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tontine\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tontine\tontine\system\Common.php(1089): CodeIgniter\View\View->render('layout/entete', Array, true)
+#4 C:\xampp\htdocs\tontine\tontine\app\Controllers\Home.php(15): view('layout/entete')
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-09 08:38:35 --> Undefined variable: titre
+#0 C:\xampp\htdocs\tontine\tontine\app\Views\layout\entete.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tontine\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tontine\tontine\system\Common.php(1089): CodeIgniter\View\View->render('layout/entete', Array, true)
+#4 C:\xampp\htdocs\tontine\tontine\app\Controllers\Utilisateur.php(17): view('layout/entete')
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Utilisateur->inscription()
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utilisateur))
+#7 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-09 08:38:35 --> Undefined variable: titre
+#0 C:\xampp\htdocs\tontine\tontine\app\Views\layout\entete.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tontine\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tontine\tontine\system\Common.php(1089): CodeIgniter\View\View->render('layout/entete', Array, true)
+#4 C:\xampp\htdocs\tontine\tontine\app\Controllers\Utilisateur.php(17): view('layout/entete')
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Utilisateur->inscription()
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utilisateur))
+#7 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-09 17:27:59 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ';' or ','
+#0 C:\xampp\htdocs\tontine\tontine\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('utilisateur/ins...')
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('utilisateur/ins...')
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

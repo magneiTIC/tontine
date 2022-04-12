@@ -1,0 +1,9 @@
+CRITICAL - 2022-04-12 17:43:04 --> Invalid file: layout/entete.php
+#0 C:\xampp\htdocs\tontine\tontine1\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/entete.p...')
+#1 C:\xampp\htdocs\tontine\tontine1\system\Common.php(1089): CodeIgniter\View\View->render('layout/entete', Array, true)
+#2 C:\xampp\htdocs\tontine\tontine1\app\Controllers\Administrateur.php(28): view('layout/entete', Array)
+#3 C:\xampp\htdocs\tontine\tontine1\system\CodeIgniter.php(832): App\Controllers\Administrateur->index()
+#4 C:\xampp\htdocs\tontine\tontine1\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrateur))
+#5 C:\xampp\htdocs\tontine\tontine1\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tontine\tontine1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

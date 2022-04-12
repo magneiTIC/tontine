@@ -1,0 +1,285 @@
+CRITICAL - 2022-04-12 05:19:35 --> Undefined variable: cotisations
+#0 C:\xampp\htdocs\tontine\tontine\app\Views\adherent\tontine.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tontine\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tontine\tontine\system\Common.php(1089): CodeIgniter\View\View->render('adherent/tontin...', Array, true)
+#4 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(148): view('adherent/tontin...')
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->tontine('3')
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#7 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-12 05:44:58 --> Undefined index: idEcheance
+#0 C:\xampp\htdocs\tontine\tontine\app\Models\AdherentModel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(144): App\Models\AdherentModel->cotiser('3')
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->tontine('3')
+#3 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#4 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-12 05:47:17 --> Undefined index: id
+#0 C:\xampp\htdocs\tontine\tontine\app\Models\AdherentModel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(144): App\Models\AdherentModel->cotiser('3')
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->tontine('3')
+#3 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#4 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-12 05:47:44 --> Undefined variable: cotisations
+#0 C:\xampp\htdocs\tontine\tontine\app\Views\adherent\tontine.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tontine\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tontine\tontine\system\Common.php(1089): CodeIgniter\View\View->render('adherent/tontin...', Array, true)
+#4 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(148): view('adherent/tontin...')
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->tontine('3')
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#7 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-12 05:51:33 --> Undefined variable: cotisations
+#0 C:\xampp\htdocs\tontine\tontine\app\Views\adherent\tontine.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tontine\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tontine\tontine\system\Common.php(1089): CodeIgniter\View\View->render('adherent/tontin...', Array, true)
+#4 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(148): view('adherent/tontin...')
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->tontine('3')
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#7 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-12 06:18:27 --> Undefined variable: cotisations
+#0 C:\xampp\htdocs\tontine\tontine\app\Views\adherent\tontine.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tontine\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tontine\tontine\system\Common.php(1089): CodeIgniter\View\View->render('adherent/tontin...', Array, true)
+#4 C:\xampp\htdocs\tontine\tontine\app\Controllers\Adherent.php(149): view('adherent/tontin...')
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->tontine('3')
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#7 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-12 06:44:24 --> Class 'App\Filter\MembreFilter' not found
+#0 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('adherent', 'before')
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-04-12 06:44:58 --> Call to undefined function App\Filters\sesssion()
+#0 C:\xampp\htdocs\tontine\tontine\system\Filters\Filters.php(173): App\Filters\MembreFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('adherent', 'before')
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-12 06:52:05 --> Undefined variable: config
+#0 C:\xampp\htdocs\tontine\tontine\app\Filters\MembreFilter.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\Filters\Filters.php(173): App\Filters\MembreFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('adherent', 'before')
+#3 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 06:53:04 --> Undefined variable: config
+#0 C:\xampp\htdocs\tontine\tontine\app\Filters\MembreFilter.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\Filters\Filters.php(173): App\Filters\MembreFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('adherent', 'before')
+#3 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 06:53:24 --> Call to undefined function App\Filters\sesssion()
+#0 C:\xampp\htdocs\tontine\tontine\system\Filters\Filters.php(173): App\Filters\MembreFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('adherent', 'before')
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-12 06:57:32 --> Call to undefined function App\Filters\sesssion()
+#0 C:\xampp\htdocs\tontine\tontine\system\Filters\Filters.php(173): App\Filters\MembreFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('adherent', 'before')
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-12 06:58:13 --> Class 'Config\MembreFilter' not found
+#0 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('adherent', 'before')
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-04-12 06:59:36 --> Class 'Config\MembreFilter' not found
+#0 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('adherent', 'before')
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-04-12 06:59:52 --> Class 'Config\MembreFilter' not found
+#0 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('adherent', 'before')
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-04-12 07:01:06 --> Class 'Config\App\Filters\MembreFilter' not found
+#0 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('adherent', 'before')
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-04-12 07:01:36 --> Cannot declare class App\Filters\Filters, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-12 07:02:08 --> Cannot declare class App\Filters, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-12 07:03:28 --> Cannot declare class Config\Filters because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-12 07:04:07 --> Class 'App\Filters\MembreFilter\BaseConfig' not found
+#0 C:\xampp\htdocs\tontine\tontine\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\tontine\tontine\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tontine\tontine\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#4 [internal function]: spl_autoload_call('Config\\Filters')
+#5 C:\xampp\htdocs\tontine\tontine\system\Config\Factories.php(136): class_exists('Config\\Filters')
+#6 C:\xampp\htdocs\tontine\tontine\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'Filters')
+#7 C:\xampp\htdocs\tontine\tontine\system\Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#8 C:\xampp\htdocs\tontine\tontine\system\Config\Services.php(258): config('Filters')
+#9 C:\xampp\htdocs\tontine\tontine\system\Config\BaseService.php(248): CodeIgniter\Config\Services::filters(NULL, false)
+#10 C:\xampp\htdocs\tontine\tontine\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#11 C:\xampp\htdocs\tontine\tontine\system\Config\Services.php(255): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#12 C:\xampp\htdocs\tontine\tontine\system\Config\BaseService.php(248): CodeIgniter\Config\Services::filters()
+#13 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(373): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#14 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2022-04-12 07:04:36 --> Call to undefined function App\Filters\sesssion()
+#0 C:\xampp\htdocs\tontine\tontine\system\Filters\Filters.php(173): App\Filters\MembreFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('adherent', 'before')
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-12 07:06:10 --> Call to undefined function App\Filters\sesssion()
+#0 C:\xampp\htdocs\tontine\tontine\system\Filters\Filters.php(173): App\Filters\MembreFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('adherent', 'before')
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-12 07:07:10 --> Too few arguments to function CodeIgniter\Session\Session::__construct(), 0 passed in C:\xampp\htdocs\tontine\tontine\app\Filters\MembreFilter.php on line 15 and exactly 2 expected
+#0 C:\xampp\htdocs\tontine\tontine\app\Filters\MembreFilter.php(15): CodeIgniter\Session\Session->__construct()
+#1 C:\xampp\htdocs\tontine\tontine\system\Filters\Filters.php(173): App\Filters\MembreFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('adherent', 'before')
+#3 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 07:08:25 --> Undefined variable: config
+#0 C:\xampp\htdocs\tontine\tontine\app\Filters\MembreFilter.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\Filters\Filters.php(173): App\Filters\MembreFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('adherent', 'before')
+#3 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 07:09:02 --> Undefined variable: config
+#0 C:\xampp\htdocs\tontine\tontine\app\Filters\MembreFilter.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\Filters\Filters.php(173): App\Filters\MembreFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('adherent', 'before')
+#3 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 07:10:28 --> Class 'App\Filters\Services' not found
+#0 C:\xampp\htdocs\tontine\tontine\system\Filters\Filters.php(173): App\Filters\MembreFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('adherent', 'before')
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-12 07:10:37 --> Call to undefined function App\Filters\sesssion()
+#0 C:\xampp\htdocs\tontine\tontine\system\Filters\Filters.php(173): App\Filters\MembreFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('adherent', 'before')
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-12 07:11:30 --> Too few arguments to function CodeIgniter\Session\Session::__construct(), 0 passed in C:\xampp\htdocs\tontine\tontine\app\Filters\MembreFilter.php on line 15 and exactly 2 expected
+#0 C:\xampp\htdocs\tontine\tontine\app\Filters\MembreFilter.php(15): CodeIgniter\Session\Session->__construct()
+#1 C:\xampp\htdocs\tontine\tontine\system\Filters\Filters.php(173): App\Filters\MembreFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('adherent', 'before')
+#3 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 07:21:58 --> Call to undefined function App\Filters\sesssion()
+#0 C:\xampp\htdocs\tontine\tontine\system\Filters\Filters.php(173): App\Filters\MembreFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('adherent', 'before')
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-12 07:22:50 --> Class 'App\Filters\CodeIgniter\Session\Session' not found
+#0 C:\xampp\htdocs\tontine\tontine\system\Filters\Filters.php(173): App\Filters\MembreFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('adherent', 'before')
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-12 07:23:25 --> Class 'App\Filters\MembreFilter' not found
+#0 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('adherent', 'before')
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-04-12 07:23:53 --> Call to undefined method CodeIgniter\Session\Session::sesssion()
+#0 C:\xampp\htdocs\tontine\tontine\system\Filters\Filters.php(173): App\Filters\MembreFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('adherent', 'before')
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-12 07:24:23 --> Call to undefined method CodeIgniter\Session\Session::session()
+#0 C:\xampp\htdocs\tontine\tontine\system\Filters\Filters.php(173): App\Filters\MembreFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('adherent', 'before')
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-12 07:24:41 --> Non-static method CodeIgniter\Session\Session::get() should not be called statically
+#0 C:\xampp\htdocs\tontine\tontine\app\Filters\MembreFilter.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Non-static meth...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\Filters\Filters.php(173): App\Filters\MembreFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('adherent', 'before')
+#3 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 07:32:13 --> Too few arguments to function App\Controllers\Adherent::tontine(), 0 passed in C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Adherent->tontine()
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Adherent))
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-12 08:16:47 --> Undefined variable: adherent
+#0 C:\xampp\htdocs\tontine\tontine\app\Views\utilisateur\index.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tontine\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tontine\tontine\system\Common.php(1089): CodeIgniter\View\View->render('utilisateur/ind...', Array, true)
+#4 C:\xampp\htdocs\tontine\tontine\app\Controllers\Utilisateur.php(45): view('utilisateur/ind...')
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Utilisateur->index()
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utilisateur))
+#7 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-12 08:21:48 --> Undefined variable: request
+#0 C:\xampp\htdocs\tontine\tontine\app\Controllers\Utilisateur.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Utilisateur->inscription()
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utilisateur))
+#3 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 08:22:37 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')'
+#0 C:\xampp\htdocs\tontine\tontine\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('utilisateur/ins...')
+#1 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('utilisateur/ins...')
+#2 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 08:27:37 --> Undefined variable: adherent
+#0 C:\xampp\htdocs\tontine\tontine\app\Views\utilisateur\index.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tontine\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tontine\tontine\system\Common.php(1089): CodeIgniter\View\View->render('utilisateur/ind...', Array, true)
+#4 C:\xampp\htdocs\tontine\tontine\app\Controllers\Utilisateur.php(45): view('utilisateur/ind...')
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Utilisateur->index()
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utilisateur))
+#7 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-12 08:29:28 --> Undefined variable: adherent
+#0 C:\xampp\htdocs\tontine\tontine\app\Views\utilisateur\index.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\tontine\tontine\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tontine\tontine\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tontine\tontine\system\Common.php(1089): CodeIgniter\View\View->render('utilisateur/ind...', Array, true)
+#4 C:\xampp\htdocs\tontine\tontine\app\Controllers\Utilisateur.php(45): view('utilisateur/ind...')
+#5 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(832): App\Controllers\Utilisateur->index()
+#6 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utilisateur))
+#7 C:\xampp\htdocs\tontine\tontine\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tontine\tontine\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
